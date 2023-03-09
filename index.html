@@ -13,6 +13,10 @@
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/2d14bd8dc6.js" crossorigin="anonymous"></script>
   <style>
+    body {
+      margin: 0;
+    }
+
     .topHover:hover {
       color: rgb(180, 5, 255);
     }
@@ -75,12 +79,36 @@
       margin-left: 20px;
       margin-top: 10px;
     }
+
+    .learnButton {
+      width: 200px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: rgb(104, 0, 149);
+      color: white;
+      border: none;
+      font-size: 20px;
+    }
+
+    .learnButton:hover {
+      background-color: white;
+      color: rgb(104, 0, 149);
+      border: 2px solid rgb(104, 0, 149);
+    }
+
+    .learnHead {
+      color: rgb(104, 0, 149);
+    }
+
+    .learnCont {
+      line-height: 30px;
+    }
   </style>
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(151, 40, 255)">
+  <nav class="navbar navbar-expand-lg" style="background-color: rgb(162, 62, 255)">
     <div class="container">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
@@ -178,7 +206,7 @@
 
   <!-- Button trigger modal -->
   <div class="container text-center">
-    <button type="button" class="btn btn-primary mt-3 know-more" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button type="button" class="btn btn-primary mt-2 know-more" data-bs-toggle="modal" data-bs-target="#exampleModal">
       Know More
     </button>
   </div>
@@ -207,13 +235,13 @@
           <div>
             <select name="" id="course" class="form-select">
               <option value="">Select Course intreseted in</option>
-              <option>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</option>
+              <option>Data Science - ML - AI - Big Data with Cloud & Tableau</option>
               <option>Python Django - Angular- Full Stack Web Development Expert</option>
               <option>Software Testing Specialist</option>
-              <option>MEARN Stack Web Development Expert - Angular &amp; React</option>
-              <option>Business Analytics - Power BI &amp; Tableau</option>
+              <option>MEARN Stack Web Development Expert - Angular & React</option>
+              <option>Business Analytics - Power BI & Tableau</option>
               <option>Android Developer Expert Training In Kochi- Flutter</option>
-              <option>PYTHON -DATA SCIENCE with ML - AI - &amp; TABLEAU</option>
+              <option>PYTHON -DATA SCIENCE with ML - AI - & TABLEAU</option>
             </select>
           </div>
           <hr>
@@ -222,11 +250,35 @@
           </div>
           <hr>
           <div>
-            <label for="adress">Address</label> <br>
+            <label for="adress">Comments</label> <br>
             <textarea name="" id="adress" cols="20" rows="5" class="form-control"></textarea>
           </div>
         </div>
         <button class="submit">SUBMIT</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LearnMore -->
+
+  <div class="container-md mt-4">
+    <div class="row w-100">
+      <div class="col-lg-7 col-md-12 col-sm-12 mt-5 learnCont">
+        <h2 class="learnHead">Luminar Technolab Pvt Ltd</h2>
+        <span class="learnHead">CIN: U80220KL2021PTC071578</span>
+        <p>
+          Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced
+          level software training to Students and by helping them to get placed in IT companies. We are a team of
+          IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career
+          foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python
+          Training, Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to
+          match with the current industry requirements. Our Vision is to provide 100% placements to students those
+          who enroll with us for our specialized courses.
+        </p>
+        <button class="learnButton">LEARN MORE</button>
+      </div>
+      <div class="col-5">
+        <img src="./images/pic1.jpg" alt="">
       </div>
     </div>
   </div>
