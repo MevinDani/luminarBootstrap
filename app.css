@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+  }
+
+  .topHover:hover {
+    color: rgb(180, 5, 255);
+  }
+
+  .car-data1 {
+    text-align: left;
+    margin-bottom: 15%;
+  }
+
+  .car-data2 {
+    text-align: left;
+    margin-bottom: 12%;
+  }
+
+  .course-button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(104, 0, 149);
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 20px;
+  }
+
+  .course-button:hover {
+    background-color: rgb(163, 1, 233);
+  }
+
+  .car-head {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+
+  .car-para {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .know-more {
+    background-color: rgb(104, 0, 149);
+    border: none;
+  }
+
+  .know-more:hover {
+    background-color: rgb(163, 1, 233);
+  }
+
+  .modal-body input {
+    border: none;
+  }
+
+  .submit {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(104, 0, 149);
+    color: white;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .learnButton {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(104, 0, 149);
+    color: white;
+    border: none;
+    font-size: 20px;
+  }
+
+  .learnButton:hover {
+    background-color: white;
+    color: rgb(104, 0, 149);
+    border: 2px solid rgb(104, 0, 149);
+  }
+
+  .learnHead {
+    color: rgb(104, 0, 149);
+  }
+
+  .learnCont {
+    line-height: 30px;
+  }
+
+  .learnSpan {
+    color: rgb(179, 0, 255);
+  }
