@@ -180,6 +180,24 @@ body {
   height: 200px;
 }
 
+.lastButton {
+  margin-top: 3%;
+  margin-left: 40%;
+  height: 50px;
+  width: 250px;
+  border-radius: 40px;
+  background-color: rgb(104, 0, 149);
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.lastButton:hover {
+  background-color: white;
+  color: rgb(104, 0, 149);
+  border: 2px solid rgb(104, 0, 149);
+}
+
 /* Media Queries */
 
 /* girlGlass */
@@ -218,6 +236,14 @@ body {
     height: 350px;
     margin-left: 120px;
   }
+
+  .ds-head {
+    font-size: 16px;
+  }
+
+  .ds-innercont h6 {
+    font-size: 14px;
+  }
 }
 
 @media (max-width:500px) {
@@ -240,17 +266,30 @@ body {
     margin-left: 80px;
   }
 
-  /* .logoImg {
-      width: 100px;
-      height: 50px;
-    } */
 }
 
 @media (max-width:400px) {
   .girlGlass {
     width: 250px;
     height: 300px;
-    margin-left: 30px;
+    margin-left: 50px;
+  }
+
+  .learnButton {
+    margin-left: 25%;
+    width: 200px;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:350px) {
+  .girlGlass {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
   }
 }
 
@@ -258,7 +297,7 @@ body {
   .girlGlass {
     width: 200px;
     height: 250px;
-    margin-left: 20px;
+    margin-left: 45px;
   }
 }
 
@@ -521,7 +560,79 @@ body {
     display: none;
   }
 
+  .ds-innercont {
+    width: 220%;
+  }
+
   .course-cards {
     height: 300px;
+  }
+}
+
+@media (max-width:1160px) {
+  .lastButton {
+    margin-top: 3%;
+    margin-left: 42%;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width:990px) {
+  .lastButton {
+    margin-top: 3%;
+    margin-left: 35%;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width:530px) {
+  .lastButton {
+    margin-top: 3%;
+    margin-left: 28%;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width:400px) {
+  .lastButton {
+    margin-top: 3%;
+    margin-left: 24%;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width:360px) {
+  .lastButton {
+    margin-top: 3%;
+    margin-left: 23%;
+    height: 30px;
+    width: 180px;
+    border-radius: 15px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width:300px) {
+  .lastButton {
+    margin-top: 3%;
+    margin-left: 16%;
+    height: 30px;
+    width: 180px;
+    border-radius: 15px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width:540px) {
+  .ds-innercont h6 {
+    font-size: 12px;
   }
 }
