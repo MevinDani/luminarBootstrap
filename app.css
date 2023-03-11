@@ -1,94 +1,527 @@
 body {
-    margin: 0;
+  margin: 0;
+}
+
+.topHover:hover {
+  color: rgb(180, 5, 255);
+}
+
+.car-data1 {
+  text-align: left;
+  margin-bottom: 15%;
+}
+
+.car-data2 {
+  text-align: left;
+  margin-bottom: 12%;
+}
+
+.course-button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(104, 0, 149);
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 0;
+  margin-top: 20px;
+}
+
+.course-button:hover {
+  background-color: rgb(163, 1, 233);
+}
+
+.car-head {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+.car-para {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.know-more {
+  background-color: rgb(104, 0, 149);
+  border: none;
+}
+
+.know-more:hover {
+  background-color: rgb(163, 1, 233);
+}
+
+.modal-body input {
+  border: none;
+}
+
+.submit {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(104, 0, 149);
+  color: white;
+  border: none;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.learnButton {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(104, 0, 149);
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.learnButton:hover {
+  background-color: white;
+  color: rgb(104, 0, 149);
+  border: 2px solid rgb(104, 0, 149);
+}
+
+.learnHead {
+  color: rgb(104, 0, 149);
+}
+
+.learnCont {
+  line-height: 30px;
+}
+
+.learnSpan {
+  color: rgb(179, 0, 255);
+}
+
+.our-courses-cont {
+  background-color: rgb(233, 233, 233);
+}
+
+.oc-head {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 35px;
+  color: rgb(78, 0, 151);
+  font-weight: 600;
+}
+
+.oc-head span {
+  color: rgb(132, 0, 255);
+}
+
+.data-science {
+  background-color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.data-science:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.data-science img {
+  width: 100%;
+  height: 90%;
+}
+
+.ds-head {
+  color: rgb(78, 0, 151);
+  margin-bottom: 20px;
+}
+
+.ds-h6 {
+  margin-top: 20px;
+}
+
+.ds-innercont {
+  padding: 50px 20px;
+}
+
+.ds-innercont h6 {
+  line-height: 25px;
+}
+
+.ds-innercont h6 a {
+  color: rgb(78, 0, 151);
+}
+
+.card-courses {
+  margin-top: 25px;
+  margin-left: 36px;
+  margin-right: 17px;
+}
+
+.card-courses a {
+  background-color: rgb(104, 0, 149);
+  border: none;
+}
+
+.card-courses a:hover {
+  background-color: rgb(163, 1, 233);
+}
+
+.course-cards {
+  transition: 0.2s ease-in-out;
+}
+
+.course-cards:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card-title {
+  color: rgb(78, 0, 151);
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.card-body {
+  height: 200px;
+}
+
+/* Media Queries */
+
+/* girlGlass */
+
+@media (max-width:1124px) and (min-width:990px) {
+  .girlGlass {
+    width: 400px;
+    height: 500px;
+  }
+}
+
+@media (max-width:990px) {
+  .girlGlass {
+    width: 400px;
+    height: 500px;
+    margin-left: 150px;
+  }
+}
+
+@media (max-width:670px) {
+  .girlGlass {
+    width: 350px;
+    height: 400px;
+    margin-left: 150px;
   }
 
-  .topHover:hover {
-    color: rgb(180, 5, 255);
+  .learnButton {
+    margin-left: 33%;
+    width: 200px;
+  }
+}
+
+@media (max-width:580px) {
+  .girlGlass {
+    width: 300px;
+    height: 350px;
+    margin-left: 120px;
+  }
+}
+
+@media (max-width:500px) {
+  .girlGlass {
+    width: 300px;
+    height: 350px;
+    margin-left: 80px;
+  }
+
+  .logoImg {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media (max-width:450px) {
+  .girlGlass {
+    width: 250px;
+    height: 300px;
+    margin-left: 80px;
+  }
+
+  /* .logoImg {
+      width: 100px;
+      height: 50px;
+    } */
+}
+
+@media (max-width:400px) {
+  .girlGlass {
+    width: 250px;
+    height: 300px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width:310px) {
+  .girlGlass {
+    width: 200px;
+    height: 250px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width:270px) {
+  .girlGlass {
+    width: 200px;
+    height: 250px;
+    margin-left: 10px;
+  }
+}
+
+/* carHead,carPara */
+
+@media (max-width:1150px) {
+  .car-head {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .car-para {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .course-button {
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width:900px) {
+  .car-head {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+
+  .car-para {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .course-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 15px;
+    font-size: 12px;
   }
 
   .car-data1 {
     text-align: left;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
   }
 
   .car-data2 {
     text-align: left;
-    margin-bottom: 12%;
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width:767px) {
+  .car-head {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .car-para {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .course-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .car-data1 {
+    text-align: left;
+  }
+
+  .car-data2 {
+    text-align: left;
+  }
+}
+
+@media (max-width:770px) {
+  .car-head {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .car-para {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .course-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .car-data2 {
+    text-align: left;
+    margin-top: 10%;
+  }
+
+  .learnButton {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width:660px) {
+
+  .car-data1,
+  .car-data2 {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
+@media (max-width:520px) {
+
+  .carousel,
+  .carousel-inner {
+    height: 300px;
+  }
+
+  .carousel-inner img {
+    height: 300px;
+  }
+
+  .car-data1,
+  .car-data2 {
+    margin-bottom: 10%;
+    padding-right: 30%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .car-head {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .car-para {
+    font-size: 11px;
+    line-height: 15px;
   }
 
   .course-button {
     width: 150px;
-    height: 50px;
-    background-color: rgb(104, 0, 149);
-    color: white;
-    border-radius: 30px;
-    font-weight: bold;
-    border: 0;
-    margin-top: 20px;
-  }
-
-  .course-button:hover {
-    background-color: rgb(163, 1, 233);
-  }
-
-  .car-head {
-    font-size: 45px;
-    margin-bottom: 25px;
-  }
-
-  .car-para {
-    font-size: 15px;
-    line-height: 25px;
-  }
-
-  .know-more {
-    background-color: rgb(104, 0, 149);
-    border: none;
-  }
-
-  .know-more:hover {
-    background-color: rgb(163, 1, 233);
-  }
-
-  .modal-body input {
-    border: none;
-  }
-
-  .submit {
-    width: 100px;
     height: 30px;
-    border-radius: 5px;
-    background-color: rgb(104, 0, 149);
-    color: white;
-    border: none;
-    margin-left: 20px;
+    border-radius: 20px;
+    border: 0;
     margin-top: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width:352px) {
+
+  .car-data1,
+  .car-data2 {
+    margin-bottom: 5%;
+    padding-right: 30%;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width:325px) {
+
+  .carousel,
+  .carousel-inner {
+    height: 350px;
   }
 
-  .learnButton {
-    width: 200px;
-    height: 50px;
-    border-radius: 25px;
-    background-color: rgb(104, 0, 149);
-    color: white;
-    border: none;
-    font-size: 20px;
+  .carousel-inner img {
+    height: 350px;
   }
 
-  .learnButton:hover {
-    background-color: white;
-    color: rgb(104, 0, 149);
-    border: 2px solid rgb(104, 0, 149);
+  .car-data1,
+  .car-data2 {
+    margin-bottom: 5%;
+    padding-right: 30%;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Our Courses */
+
+@media (max-width:1214px) {
+  .course-cards {
+    height: 400px;
+  }
+}
+
+@media (max-width:991.9px) {
+  .card-img-top {
+    height: 240px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .learnHead {
-    color: rgb(104, 0, 149);
+  .ds-innercont {
+    width: 200%;
   }
 
-  .learnCont {
-    line-height: 30px;
+  .card-body {
+    height: 900px;
+  }
+}
+
+@media (max-width:992px) and (min-width:991px) {
+  .ds-innercont {
+    width: 94%;
   }
 
-  .learnSpan {
-    color: rgb(179, 0, 255);
+  .course-cards {
+    height: 400px;
   }
+}
+
+@media (max-width:740px) {
+  .card-img-top {
+    width: 100%;
+    height: 55%;
+  }
+}
+
+@media (max-width:600px) {
+  .course-cards h6 {
+    display: none;
+  }
+
+  .ds-innercont h9 {
+    display: none;
+  }
+
+  .course-cards {
+    height: 300px;
+  }
+}
